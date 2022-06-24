@@ -21,7 +21,7 @@ body{
 .bottom-container{
   background-color: #325288;
   padding: 40px 0 50px;
-  text-decoration: none;
+ 
 }
 h1{
   padding-top: 40px;
@@ -88,11 +88,11 @@ p{
 a{
   padding-top:40px ;
   margin:30px 30px;
-  text-decoration:none ;
+  text-decoration:none;
 }
 a:hover{
   color: #FAEEE7;
-  text-decoration:underline;
+  
 }
 .btn {
   -webkit-border-radius: 11;
@@ -127,7 +127,6 @@ hr{
     margin: 50px auto;
   
 }
-
 
 
 
