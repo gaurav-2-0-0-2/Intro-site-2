@@ -21,6 +21,7 @@ body{
 .bottom-container{
   background-color: #325288;
   padding: 40px 0 50px;
+  text-decoration: none;
 }
 h1{
   padding-top: 40px;
