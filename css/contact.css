@@ -1,0 +1,39 @@
+
+
+
+.container-1{
+    text-align: center;
+    margin: 5% 0 5% 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container-2{
+   
+    margin: 3% 0 3% 0;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    
+}
+
+.container-3{
+    text-align: center;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+#name{
+    margin-bottom: 1%;
+    
+    
+}
+#dob{
+    margin-bottom: 1%;
+    
+}
+
+.message-block{
+    margin: 1% 0 1% 0;
+}
+
+.submit-btn{
+    
+}

@@ -1,29 +1,46 @@
-<h1>My Contact Details</h1>
-<p>7756479006<br>
-   my@gmail.com <br>
-   My Address</p>
-   <link rel="stylesheet" href="css/styles.css">
+<head>
+    <link rel="stylesheet" href="css/contact.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Rubik+Moonrocks&family=Ubuntu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container-1">
+        <h1>My Contact Details</h1>
+        <p>7756479006<br>
+            my@gmail.com <br>
+            My Address</p>
+    </div>
+
     <form action="mailto:gauravtak996@gmail.com" method="post" enctype="text/plain">
 
-        <table>
-            <tr>
-                <td><label>Name:</label></td>
-                <td><input type="text" name="Your name"></td>
-            </tr>
-            <tr>
-                <td><label>Date of Birth:</label></td>
-                <td><input type="date" name="Your DOB"></td>
-            </tr>
-            <tr>
-                <td><label>Your Email:</label></td>
-                <td><input type="email" name="Your Email" value=""></td>
-            </tr>
-        
-        </table>
-        <label>Your Message:</label><br>
-        <textarea name="Your Message" id="" cols="30" rows="10"></textarea><br>
-        <label for=""> Do You Accept the Policy?</label>
-        <input type="checkbox">
-        <input type="Submit">
+        <div class="container-2">
+            <div id="name">
+                <label>Name:</label>
+                <input type="text" name="Your name">
+            </div>
+            <div id="dob">
+                <label>Date of Birth:</label>
+                <input type="date" name="Your DOB">
+            </div>
+            <div id="mail">
+                <label>Your Email:</label>
+                <input type="email" name="Your Email" value="">
+            </div>
+        </div>
+        <div class="container-3">
+            <label>Your Message:</label><br>
+            <div class="message-block"><textarea name="Your Message" id="" cols="30" rows="10"></textarea><br></div>
+            <label for=""> Do You Accept the Policy?</label>
+            <input type="checkbox">
+            <input class="submit-btn" type="submit">
+        </div>
 
     </form>
+
+</body>
