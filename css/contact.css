@@ -1,23 +1,28 @@
 
-
+body{
+    margin:0;
+    
+}
 
 .container-1{
     text-align: center;
-    margin: 5% 0 5% 0;
-    font-family: 'Noto Sans JP', sans-serif;
+    padding: 4% 0 3% 0;
+    font-family: 'Rubik Moonrocks', cursive;
+    background-color: #94B49F;
 }
 
 .container-2{
    
-    margin: 3% 0 3% 0;
+    padding: 2% 0 2% 0;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    
+    background-color:#ECB390 ;
 }
 
 .container-3{
     text-align: center;
     font-family: 'Rubik Moonrocks', cursive;
+    padding: 3% 0 4% 0;
 }
 
 #name{
@@ -35,5 +40,25 @@
 }
 
 .submit-btn{
-    
+    width: 5%;
+    height:5%;
+    background-color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+.submit-btn::before{
+    background-color: #94B49F;
+    transition: 0.3s ease-out;
+
+}
+.submit-btn span{
+    color: rgb(255, 0,0);
+   
+    transition: 0.2s 0.1s;
+}
+
+
+.container-3{
+    background-color: #DF7861;
 }
